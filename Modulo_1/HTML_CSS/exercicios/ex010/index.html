@@ -7,6 +7,20 @@
 </head>
 <body>
     <h1>Links</h1>
+    <h2>Usando links externos</h2> <!-- link que te leva para outro site -->
     <a href="https://google.com" target="_self" rel="external">Site do Google</a>
+    <p>Você pode acessar o <a href="https://github.com/Karlos-Vinicius" target="_blank" rel="external">meu perfil</a> no GitHub.</p>
+
+    <h2>Usando links internos</h2>
+    <!-- Fazer relação com outra página que está dentro do servidor -->
+    <p>Essa é a minha página, caso você queira acessar a minha segunda página <a href="pag002.html" rel="next">clique aqui!</a></p>
+    <!-- Self significa a própria página. -->
+    <p><a href="noticias/page003.html" rel="next" target="_self">Minha terceira página!</a></p>
+
+    <h2>Links para download</h2>
+    <ul>
+        <li><a href="livros/meulivro.pdf" download="meulivro.pdf" type="application/pdf">Baixar o livro em PDF</a></li>
+        <li><a href="livros/meulivro.zip" download="meulivro.zip" type="application/zip">Livro compactado em ZIP</a></li>
+    </ul>
 </body>
 </html>
