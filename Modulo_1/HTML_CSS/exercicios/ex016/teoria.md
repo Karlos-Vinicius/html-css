@@ -1,0 +1,13 @@
+# Cores
+- Cores complementares: cores que tem mais contraste entre sí. A outra cor sempre está do lado oposto do círculo cromático.
+- Ex.: amarelo e violeta. Vermelho e verde.
+- Cores análogas: cores que não tem contraste entre sí. Uma é vizinha da outra.
+- Ex.: Violeta e azul.
+- Cores análogas e uma compelentar: Junção das cores análogas com uma complementar.
+- Cores análogas relacionadas: pega duas cores vizinhas e uma outra cor que não é vizinha, mas que está em uma distância curta. Pega duas cores vizinhas e pega a próxima cor do círculo cromático.
+- Cores intercaladas: Pega uma cor, pula, pega outra cor, pula, e pega mais uma cor.
+- Ex.: amarelo, amarelo-alaranjado e vermelho
+- COres triádicas: pega uma cor, pula três, pega outra cor, pula três e pega outra cor. Forma um triângulo equilátero.
+- Cores em quadrado: Pega uma cor, pula duas, pega outra cor, pula duas, pega outra cor, pula duas e pega a última cor.
+- Cores tetrádicas: pega uma cor, pega a sua cor complementar, pega outra cor e pega o complementar dessa cor.
+- Monocromia: trabalha com uma cor e modifica a saturação e o brilho. Gera um degradê.

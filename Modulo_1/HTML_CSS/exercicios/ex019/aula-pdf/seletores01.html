@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personalizando Seletores</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Indie+Flower&family=Madimi+One&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+
+        /* 
+        Toda class é identificada com o símbolo .
+        Todo id é identificado com o símbolo # 
+        */
+
+        body {
+            font: normal normal 1em 'Noto Serif', sans-serif;
+        }
+
+        h1 {
+            font-size: 2em;
+            font-family: 'Times New Roman', Times, serif;
+            color: darkgreen;
+        }
+
+        h2 {
+            font-family: 'Times New Roman', Times, serif;
+            color: green;
+        }
+
+        #titulo-principal {
+            text-align: center;
+            color: white;
+            background-color: darkgreen;
+        }
+
+        .topico {
+            text-align: right;
+        }
+
+        .texto {
+            text-align: justify;
+            text-indent: 2em;
+        }
+    </style>
+</head>
+<body>
+    <!-- Não podemos ter dois elementos HTML com o mesmo id, mas podemos ter um, dois ou mais elementos HTML com a mesma class -->
+    <!-- Idendificador único -->
+    <h1 id="titulo-principal">Aprenda Desenvolvimento Web</h1>
+    <h1>Aprenda HTML</h2>
+    <!-- Forma de agrupar elementos com características semelhates -->
+    <h2 class="topico">Semântica Web</h2>
+    <p class="texto">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Neque, dolores! Nemo possimus modi quaerat sed natus provident distinctio ratione sint voluptatibus, perspiciatis optio labore laborum commodi deserunt dicta voluptatum consequuntur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, tempore, omnis placeat consectetur sequi harum iste sed ratione tempora sit modi dolorem expedita dolore cumque vitae optio distinctio nobis doloribus.</p>
+    <h1>Aprenda CSS</h1>
+    <h2 class="topico">Aprenda CSS</h2>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam numquam error repellat et. Nihil nesciunt ut, sequi velit maiores, fuga numquam quas eligendi repellendus vero modi. Facere, voluptatibus? Asperiores, architecto! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque laboriosam harum similique quam? Labore nihil reprehenderit, qui quia aspernatur vel excepturi magnam porro voluptas, sed natus repellat est sequi laudantium?</p>
+</body>
+</html>

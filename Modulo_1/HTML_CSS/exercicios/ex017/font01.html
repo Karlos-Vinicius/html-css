@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        
+        body {
+            /* Obs.: Eu só posso fazer essas alterações se a minha fonte me permitir, ou seja, para eu deixar uma fonte em negrito (bold), em itálico e com sublinhado, a minha fonte tem que permitir tudo isso! 
+
+            O navegador vai tentar primeiro com a 'Courier New, se não der ele vai para a próxima até chegar no final.*/
+            font-family: 'Work Sans', Verdana, Geneva, Tahoma, sans-serif;
+            font-weight: normal;
+            /* 
+            lighter normal bold bolder, ou , 100 - 900 
+
+            Weight - Peso - Peso da fonte, ou seja, ela fica mais magrinha ou gordinha. 
+            Width - Largura
+            Height - Altura 
+
+            Para deixar a fonte em itálico 
+            font-style: italic;
+            Para deixar a fonte com sublinhado 
+            text-decoration: underline;
+
+            Medidas Absolutas
+            cm, mm, in, px, pt, pc
+
+            Medidas Relativas
+            em, ex, rem, vw, vh
+            em - Relação com da letra M (maiúscula) de uma fonte.
+            ex - Relação com a altura-x da fonte.
+            rem - Relação da fonte que está configurada no body
+            vw - Em relação ao tamanho da tela.
+            vh - Em relação à altura da tela.
+
+            Para o fonte size usar ex ou px.
+            O tamanho ideal para uma fonte é 16px.
+            16px == 1em
+            
+            font-size: 1em;
+            */
+        }
+
+        h1 {
+            font-style: italic;
+            font-weight: bold;
+            font-size: 3em;
+            font-family: 'Times New Roman', Times, serif;
+            /*
+            Simplificando as linhas de cima:
+            shorthand font
+            - font-style -> font-weight -> font-size -> font-family
+            */
+            font: italic bold 3em 'Times New Roman', Times, serif;
+        }
+
+        h2 {
+            font: italic bold 2.2em 'TImes New Roman', Times, serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com Fontes</h1>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium explicabo ex mollitia, assumenda ratione autem fugit corporis amet, maiores odio quos molestias atque accusantium minus dolor voluptates minima consectetur suscipit. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequuntur reiciendis sit quo eaque nobis vitae. Quasi sit blanditiis hic aspernatur harum fuga eligendi delectus, esse enim error dolorum officia ipsa. Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus similique nobis cum laboriosam consequuntur in reiciendis minus sapiente placeat deleniti, obcaecati tenetur soluta, ex commodi, quam hic ipsam? Animi, consequatur?</p>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus vel voluptatum nulla commodi velit unde magnam explicabo, quisquam doloremque illum quo beatae quasi, nemo sint accusamus reiciendis neque. Excepturi, esse.</p>
+    <h2>Subtítulo do exercício</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi aliquam perferendis porro ut quisquam excepturi, soluta quos modi suscipit adipisci et, deleniti aperiam similique ex eaque non amet! Ipsa, blanditiis!</p>
+</body>
+</html>

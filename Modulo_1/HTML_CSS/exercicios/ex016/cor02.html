@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gradiente CSS</title>
+    <style>
+        /* Configuração global do CSS */
+        * {
+            height: 100%;
+        }
+        body {
+            /* O CSS trata o gradiente como se fosse uma imagem.
+             linear-gradient: função. Aceita os seguintes valores: 
+            direção: pode ser em graus (90deg, 20deg) ou usando a notação to right, to left, to top, to bottom: 
+            cor 1
+            cor 2
+            A porcentagem depois da cor serve para fazer com que a cor ocupe um espaço maior ou menor do que deveria.
+            */
+            background-image: linear-gradient(-45deg, #FE0182 1%, #FD01C8, #8A16F3, #FF9A02, #FF0E3C);
+            background-attachment: fixed;
+        }
+    </style>
+</head>
+<body>
+    <h1>Testando Gradiente</h1>
+</body>
+</html>

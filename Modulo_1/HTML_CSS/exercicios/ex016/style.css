@@ -1,0 +1,7 @@
+body {
+    /*
+    background-image: linear-gradient(-90deg, blue, red); */
+    background-image: radial-gradient(circle, blue, red, yellow);
+    color: #11ab48;
+    font-family: 'Times New Roman', Times, serif;
+}

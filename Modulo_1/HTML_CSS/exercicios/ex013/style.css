@@ -1,0 +1,13 @@
+@charset "UTF-8";
+/* Regra em CSS, para não dar problemas de acentuação no futuro */
+
+body {
+    background-color: lightblue;
+    color: blue;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 12pt;
+}
+
+h1 {
+    color: brown
+}

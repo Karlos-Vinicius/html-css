@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    /* height: 100%; */
+}
+
+body {
+    background-image: linear-gradient(to right, #03A678, #014040);
+}
+
+main {
+    background-color: white;
+    /* Comprimento que o main vai ocupar na minha tela */
+    width: 600px;
+    /* Engordadinha no conteúdo interno */
+    padding: 10px;
+    /* Sempre vai centralizar no meio */
+    margin: auto;
+
+    /* Faz um sombra 
+    Primeiro parâmetro: Quanto essa sombra vai andar para o lado. 
+    Segundo parâmetro: Quanto essa sombra vai andar para baixo.
+    Terceiro parâmetro: Quanto essa sombra ela vai espalhar
+    Quarto parâmetro: Cor da sombra */
+    box-shadow: 10px 10px 10px #005151;
+    border-radius: 10px;
+}
+
+h1 {
+    /* Alinha o texto no centro */
+    text-align: center;
+    color: #F27405;
+    /* Mesmo conceito do box-shadow só que com texto */
+    text-shadow: 1px 1px 0px #a22205ca;
+}
+
+h2 {
+    color: #e9842b;
+}
+
+p {
+    text-align: justify;
+}

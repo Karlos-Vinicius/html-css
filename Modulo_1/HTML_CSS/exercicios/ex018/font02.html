@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes Externas</title>
+    <style>
+        @font-face {
+            /* Aqui em font-family a gente que vai dar nome à fonte!!! */
+            font-family: 'Love';
+            src: url('fonts/love story ttf.ttf') format('opentype');
+            font-weight: normal;
+            font-style: normal;
+            /* 
+            Tipos de format():
+            - opentype - (otf)
+            - truetype - (ttf)
+            - embedded-opentype
+            - truetype-aat (Apple Advance Typography)
+            */
+        }
+
+        body {
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+        h1 {
+            font: italic bold 3em 'Love', Times, serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>Olá, mundo!</h1>
+    <P>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae ipsa atque pariatur? Voluptas adipisci veniam odio, tenetur repellendus suscipit itaque? Obcaecati dignissimos eveniet et, id qui amet. Repellendus, ea magni.</P>
+</body>
+</html>
