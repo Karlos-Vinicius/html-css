@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vértices arredondados</title>
+    <style>
+        h1 {
+            text-align: center;
+            border: 20px solid transparent;
+            padding: 10px;
+            /* Faz com que uma imagem se torne a borda. Essa imagem se repete 4 vezes, uma para cada canto */
+            border-image-source: url('images/borda.png');
+
+            /* Fatia a imagem */
+            border-image-slice: 10;
+
+            /* Repete a imagem. Outro parâmetro seria stretch 'esticar' */
+            border-image-repeat: repeat;
+
+            /* shorthand */
+            border-image: url('images/borda.png') 10 repeat;
+        }
+    </style>
+</head>
+<body> 
+    <h1>Teste de borda</h1>
+</body>
+</html>
