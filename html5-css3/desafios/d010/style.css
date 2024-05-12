@@ -1,0 +1,121 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: "android";
+    src: url("fonts/idroid.otf") format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    margin: 0px;
+    background-color: #37d37d8b;
+}
+
+header {
+    background-image: linear-gradient(to bottom, #37d37d, #1c643b);
+    margin: 0px;
+    color: white;
+}
+
+#principal, #secundario {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    padding: 10px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+#principal {
+    font-size: 3em;
+}
+
+h1, h2 {
+    font-family: 'android', sans-serif;
+    color: #1c643b;
+    padding: 5px 20px;
+    margin: 0px 5px;
+}
+
+h1 {
+    font-size: 1.6em;
+}
+
+h2 {
+    font-size: 1.2em;
+    background-image: linear-gradient(to right, #3bc27864, white);
+}
+
+p {
+    font: normal normal 1.1em 'Times New Roman', Times, serif;
+    text-indent: 30px;
+    text-align: justify;
+    padding: 0px 20px
+}
+
+nav {
+    background-color: #217A48;
+}
+
+nav > a {
+    font: normal normal 1em 'Courier New', Courier, monospace;
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    padding: 5px;
+}
+
+main {
+    margin: 0px 60px;
+    background-color: white;
+}
+
+nav > a:hover {
+    text-decoration: underline;
+}
+
+.image {
+    text-align: center;
+}
+
+.video {
+    background-color: #1c643b;
+    padding: 40px 0px;
+    text-align: center;
+}
+
+footer {
+    margin: 0px 60px;
+    background-color: white;
+    padding: 20px;
+}
+
+.part-footer {
+    background-color: rgba(137, 248, 155, 0.711);
+    border: 0px solid transparent;
+    border-radius: 20px;
+    margin: 0px;
+    padding: 0px 0px 10px 0px;
+}
+
+h3 {
+    margin: 0px;
+    padding: 10px;
+    color: white;
+    font: normal normal 1em 'Courier New', Courier, monospace;
+    background-color: #1c643b;
+    border: 0px solid transparent;
+    border-radius: 10px 10px 0px 0px;
+}
+
+div {
+    width: 100%;
+    background-color: #1c643b;
+    color: white;
+    padding: 5px;
+}
+
+div > p {
+    margin: 0px;
+    text-align: center;
+}
