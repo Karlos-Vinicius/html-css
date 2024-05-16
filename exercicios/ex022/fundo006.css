@@ -8,19 +8,28 @@
 }
 
 body {
+    /*
     background-image: url('images/wallpaper002.jpg');
     background-position: center top;
     background-repeat: no-repeat;
 
-    /* 
     auto: padrão. Só coloca a imagem.
     contain: faz com que a imagem seja 100% exibida. Acaba criando barras pretas para preencher o espaço que falta.
     cover: cobre a tela inteira mesmo que tenha que cortar algumas partes da imagem.
 
     Também pode colocar o tamanho fixo em pixels, porcentagem etc.
-    */
     background-size: cover;
     margin: 10px 0px 0px 0px;
+
+    scroll: a image vai rodar junto com a barra de rolagem.
+    fixed: a imagem não vai rodar junto com a barra de rolagem, ela vai ficar fixa, parada, estática.
+    background-attachment: fixed;
+
+    shorthand background
+    color > image > position > repeat > [size] > attachment
+    */
+    background: black url('images/wallpaper002.jpg') center center no-repeat fixed;
+    background-size: cover;
 }
 
 main {
