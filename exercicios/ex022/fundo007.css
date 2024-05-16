@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    padding: 10px;
+}
+
+#conteiner {
+    /* Todo posicionamento de um conteiner é relativo */
+    position: relative;
+    height: 95vh;
+    padding: 10px;
+    background-image: url('images/target001.png');
+    background-size: 100% 100%;
+}
+
+#conteudo {
+    /* Todo conteúdo tem um posicionamento absoluto */
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    background-color: yellow;
+    background-image: url('images/target001.png');
+    background-size: 100% 100%;
+
+    left: 50%;
+    top: 50%;
+
+    /* 
+    Você usa o transform para mexer em qualquer caixa e aplicar alguam transformação nela
+    */
+    transform: translate(-50%, -50%);
+}

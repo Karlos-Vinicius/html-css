@@ -28,7 +28,7 @@ body {
     shorthand background
     color > image > position > repeat > [size] > attachment
     */
-    background: black url('images/wallpaper002.jpg') center center no-repeat fixed;
+    background: black url('images/wallpaper002.jpg') center center no-repeat cover fixed;
     background-size: cover;
 }
 
