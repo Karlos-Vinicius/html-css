@@ -33,5 +33,5 @@ body {
     /* 
     Você usa o transform para mexer em qualquer caixa e aplicar alguam transformação nela
     */
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%); /* Esses 50% fazem referência ao tamanh oda caixa */
 }
