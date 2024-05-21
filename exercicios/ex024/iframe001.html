@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estudos de Iframe</title>
+    <style>
+        /*
+            Tamanho padrão de um iframe 300x150
+            Entre as dimensões de um iframe feito pelo HTML e CSS, fica valendo o do CSS
+        */
+    </style>
+</head>
+<body>
+    <h1>Testando o uso de iframe</h1>
+    <p>Acessando o site do
+        <!-- É como se fosse uma nova aba do navegador só que dentro do meu site. -->
+        <!-- 
+            O parâmetro scrolling pode ter os seguintes valores:
+                auto - Se o conteúdo do iframe ultrapassar o tamanho dele, ele permitirá a rolagem.
+                no - não permite a rolagem
+                yes - permite a rolagem
+
+            frameborder: cria um borda. Aceita os seguintes parâmetros:
+                0 - sem borda
+                1 - com borda
+        -->
+        <iframe src="https://www.cursoemvideo.com" frameborder="0" scrolling="no"></iframe>
+        para aprender a programar
+    </p>
+    <p>
+        O site do 
+        <iframe src="https://www.google.com.br" frameborder="0">
+            <a href="https://www.google.com.br">Curos em Vídeo</a>
+        </iframe>
+    </p>
+
+    <p>
+        O repositório do Guanabara
+        <!-- Caso o navegador não suporte o iframe ele exibirá o conteúdo interno do iframe-->
+        <iframe src="https://gustavoguanabara.github.io" frameborder="0">
+            <a href="https://gustavoguanabara.github.io">no Github</a>
+        </iframe>
+        também é sempre legal
+    </p>
+</body>
+</html>

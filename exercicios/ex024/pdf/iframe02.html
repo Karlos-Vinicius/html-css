@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iframe</title>
+    <script>
+    </script>
+    <style>
+        /* 
+            Entre um HTML e um CSS, sendo que os dois definem o estilo do iframe, qual fica valendo?
+            R: HTML tem prefência.
+        */
+        iframe {
+            width: 500px;
+            height: 500px;
+            border: 1px solid black;
+            border-radius: 5px;
+            box-shadow: 3px 3px 10px black;
+        }
+    </style>
+</head>
+<body>
+    <p>
+        <!-- Propriedade scrolling 
+        no - Não permite a rolagem da página
+        yes - Habilita a rolagem da página
+        auto - A rolagem só é abilitada se o conteúdo for maior que o tamanho estabelecido.
+        -->
+        Acesse o site
+        <iframe src="https://www.cursoemvideo.com" frameborder="0" width="500" height="500">
+            [Seu navevegador não suporta iframes] <!-- Esse conteúdo é exibido caso o navegador não suporte iframe -->
+        </iframe>
+        e faça muitos cursos!
+    </p>
+    <!-- 
+        srcdoc - Cria um conteúdo estaticamente dentro do iframe
+    -->
+    <iframe srcdoc="<h2>Teste de título</h2><p>Esse documento foi gerando dinamicamente</p>" frameborder="0">
+        <p>Seu navegador não é compatível com a exibição desse recuros.</p>
+    </iframe>
+</body>
+</html>

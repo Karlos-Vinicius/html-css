@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uso de iframe</title>
+    <style>
+        body {
+            font: normal normal 1.3em Arial, Helvetica, sans-serif;
+        }
+
+        #tela {
+            display: block;
+            width: 100%;
+            height: 475px;
+            margin: auto;
+            border: 2px solid black;
+        }
+    </style>
+</head>
+<body>
+    <h1>Faça a sua escolha</h1>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officia suscipit nemo itaque impedit ipsum, explicabo quis necessitatibus consequatur? Amet earum doloremque repudiandae ipsam illo quaerat esse adipisci repellat at corporis!</p>
+
+    <ul>
+        <!-- Para abrir uma janela no iframe nós temos que colocar dentro do target o nomo que demos para o iframe -->
+        <li><a href="paginas_extras/pagina001.html" target="frame">Primeira página</a></li>
+        <li><a href="paginas_extras/pagina002.html" target="frame">Segunda página</a></li>
+        <li><a href="paginas_extras/pagina003.html" target="frame">Terceira página</a></li>
+    </ul>
+
+    <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ratione soluta, dolore laborum voluptas saepe facilis libero autem quam repudiandae! Expedita tempore nemo, similique adipisci ducimus iusto quisquam ex eveniet! Alias. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Non odit eos culpa vitae? Obcaecati iusto itaque illum, unde corporis alias ipsam perspiciatis explicabo exercitationem, ipsum reiciendis eligendi fugiat, quam ducimus.
+    </p>
+
+    <!-- Nome do iframe é frame -->
+    <iframe id="tela" name="frame" srcdoc="<h1>Escolha uma das opções acima</h1><p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ratione soluta, dolore laborum voluptas saepe facilis libero autem quam repudiandae! Expedita tempore nemo, similique adipisci ducimus iusto quisquam ex eveniet! Alias. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Non odit eos culpa vitae? Obcaecati iusto itaque illum, unde corporis alias ipsam perspiciatis explicabo exercitationem, ipsum reiciendis eligendi fugiat, quam ducimus.</p><img src='images/meme_gato.png'><img src='images/meme_jedai.png'>" frameborder="1"> <!-- Dentro de scrdoc nós podemos colocar conteúdos HTML -->
+        <p>Seu navegador não suporta iframe</p>
+    </iframe>
+
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi exercitationem obcaecati iure enim, tempore quos illum ab. Exercitationem dolores dolorem mollitia aliquam pariatur maxime accusantium consequatur. Saepe quaerat mollitia ipsum!
+    </p>
+</body>
+</html>
