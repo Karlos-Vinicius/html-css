@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iframe</title>
+</head>
+<body>
+    <h1>Meu site principal</h1>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Itaque explicabo velit possimus in culpa exercitationem asperiores tempore laborum. Cupiditate doloremque nobis excepturi deserunt! Tempore amet nihil reiciendis ad ut perferendis.</p>
+
+    <!-- 
+        O sandbox não permite que outros sites acessem o meu iframe, por exemplo, o sandbox não permite que o site que está no meu iframe envie o formulário para outro servidor.
+
+        sandbox="sandbox" 
+        Segurança máxima do sandbox
+
+        Caso eu queira permitir alguma coisa eu tenho que fazer isso manualmente, ex.:
+        sandbox="allow-same-origin allow-forms allow-scrpts"
+
+        referrerpolicy="no-referre"
+        Isso faz com o conteúdo contido dentro do iframe não vai coletar nenhuma informação
+    -->
+    <iframe src="paginas_extras/pagina004.html" frameborder="0" sandbox="sandbox" referrerpolicy="no-referre">
+        Seu navegador não é compatível com iframe
+    </iframe>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus repellat ipsum vel cupiditate ullam rem labore possimus nesciunt facere facilis. Aliquid a molestiae cum rerum magnam quas rem ipsam fugiat?</p>
+</body>
+</html>
