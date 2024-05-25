@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <!-- 
+        method: indica o método de envio
+        action: para onde os dados serão enviados
+    -->
+    <form action="cadastro.php" method="post">
+        <p>
+            <label for="camponome">Nome:</label>
+            <!--
+                name: é visível no corpo da URL, caso você tenha usado o método GET, ou no corpo da requisição HTTP, caso você tenha usado o método POST
+                Use sempre o input[id] == label[for] (os dois devem ter o mesmo valor)
+            -->
+            <input type="text" name="fnome" id="camponome">
+        </p>
+        <p>
+            <label for="idade">Idade:</label>
+            <input type="number" name="idadepessoa" id="idade">
+        </p>
+        <input type="submit" value="Enviar">
+    </form>
+    <!--
+        Diferenças entre os métodos get e post
+        No get, todos os dados digitados no formulário apareceram no corpo da URL, por exemplo em uma pesquisa no google.
+        No post os dados são enviados no corpo da requisição HTTP
+
+        Quando devemos usar o GET
+        Quando os dados que serão enviados não são sensíveis
+        Com o GET podemos compartilhar formulários, por exemplo, o Google usa o GET em seu formulário, e podemos compartilhar esse formulário para que a pessoa possa acessar a página de busca.
+        No GET, o tamanho dos dados não podem ultrapassar mais de 3000 bytes.
+        Não pode conter arquivos ou imagens
+
+        Quando devemos usar o POST
+        Quando não queremos que os nossos dados estejam presentes na URL.
+        Quando precisamos enviar dados com mais de 3.000 bytes.
+        Podemos enviar imagens ou outros tipos de dados.
+    -->
+</body>
+</html>
