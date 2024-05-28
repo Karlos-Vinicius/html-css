@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <h1>Teste de Formulário</h1>
+    <!-- 
+        required: o envio do formulário só poderá ser realizado caso este campo seja preenchido
+        minlength: mínimo de caracteres
+        maxlength: máximo de caracteres
+        size: total de caracteres que será mostrado na caixa (cria a rolagem lateral dentro da caixa)
+        placeholder: Dica para o usuário
+        form - autocomplete: Para sugestões das informações que serão preenchidas
+        outros - autocomplete: informa para o navegador qual é o campo que será auto-completado.
+    -->
+    <form action="cadastro.php" method="get" autocomplete="on">
+        <p>
+            <label for="iusu">Usuário: </label>
+            <input type="text" name="usu" id="iusu" required size="10" placeholder="Nome de usuário" autocomplete="username">
+        </p>
+        <p>
+            <label for="isen">Senha: </label>
+            <input type="password" name="sen" id="isen" required minlength="8" maxlength="20" placeholder="O mínimo são 8 letras" autocomplete="current-password">
+        </p>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+</body>
+</html>
