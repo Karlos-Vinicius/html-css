@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <form action="cadastro.php" method="get" autocomplete="on">
+        <p>
+            <label for="iest">Estado: </label>
+            <select name="estado" id="iest">
+                <option value="" selected>--- Escolha ---</option>
+                <optgroup label="Região Sudeste">
+                    <option value="SP">São Paulo</option>
+                    <option value="RJ">Rio de janeiro</option>
+                    <option value="MG">Minas Gerais</option>
+                </optgroup>
+
+                
+                <optgroup label="Região Nordeste">
+                    <option value="MA">Maranão</option>
+                    <option value="PE">Pernambuco</option>
+                    <option value="RN">Rio Grande do Norte</option>
+                </optgroup>
+            </select>
+        </p>
+
+        <p>
+            <!-- Essa opção é bem parecida com o select -->
+            <label for="iprof">Profissão: </label>
+            <!-- O id do datalist precisa estar dentro do atributo list, senão vai dar errado-->
+            <input type="text" name="prof" id="iprof" list="lstprof">
+            <!-- Se eu não quiser que apareça o value é só tirar ele -->
+            <!-- A diferença entre o datalist e o select é que o data list são só sugestões, mas caso a minha profissão não seja nenhuma delas eu posso colocá-la manualmente-->
+            <datalist id="lstprof">
+                <option value="ADM">Administrador</option>
+                <option>Contador</option>
+                <option value="DEV">Desenvolvedor</option>
+                <option>Professor</option>
+            </datalist>
+        </p>
+
+        <p>
+            <label for="imsg">Mensagem: </label> <br>
+            <textarea name="msg" id="imsg" cols="30" rows="10"></textarea>
+        </p>
+
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Resetar">
+        </p>
+    </form>
+</body>
+</html>
