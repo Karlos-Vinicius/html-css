@@ -1,0 +1,39 @@
+/* Estilo para impressoras */
+
+@charset 'UTF-8';
+
+* {
+    margin: 10px;
+    padding: 10px;
+}
+
+html {
+    font: normal normal 1.5em 'Courier New', Courier, monospace;
+    line-height: 1.5em;
+}
+
+menu {
+    display: none;
+}
+
+article {
+    width: 100%;
+}
+
+article::after {
+    content: "Este artigo foi impresso através do site www.cursoemvideo.com";
+}
+
+/* 
+    Media query: media type + media feature
+
+    É basicamente os tipos de mídias
+    media type:
+        - tela (screen)
+        - impressora (print) 
+        - todas (all)
+
+    É as características da mídia, por exemplo, existem tipos diferentes de tela, com diferentes tamanhos
+    media feature: 
+        - 
+*/
