@@ -3,3 +3,8 @@
 /*
     Celular deitado
 */
+
+body {
+    background: url('../images/cev-portrait.jpg') center bottom no-repeat;
+    background-size: contain;
+}

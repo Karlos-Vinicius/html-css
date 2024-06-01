@@ -3,3 +3,8 @@
 /*
     Celular em pé
 */
+
+body {
+    background: url('../images/cev-landscape.jpg') left bottom no-repeat;
+    background-size: contain;
+}
