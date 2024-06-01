@@ -11,17 +11,27 @@ html {
     font: normal normal 1.1em Arial, Helvetica, sans-serif;
 }
 
+body {
+    background-color: rgb(228, 228, 228);
+}
+
 header {
-    background-color: rgba(255, 128, 128, 0.088);
+    background-color: rgb(188, 188, 188);
 }
 
 header h1 {
     text-align: center;
+    padding: 10px;
+
+}
+
+main {
+    padding: 0px 20px;
 }
 
 menu ul {
     list-style-type: none;
-    background-color: gray;
+    background-color: rgb(188, 188, 188);
 }
 
 menu li {
@@ -32,9 +42,23 @@ menu li {
 }
 
 article {
-    width: 600px;
+    min-width: 300px;
+    max-width: 600px;
     display: block;
     margin: auto;
+    margin-top: 10px;
+    padding: 5px;
+    border-radius: 10px;
     text-align: justify;
+    background-color: white;
+}
+
+article h2 {
+    text-align: center;
+}
+
+article p {
+    padding: 10px 0px;
+    text-indent: 30px;
 }
 
