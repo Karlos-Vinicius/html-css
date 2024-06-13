@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexible Box</title>
+
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+            border: 0px;
+        }
+
+        .container {
+            background-color: lightsalmon;
+            display: flex;
+            /*
+                4 direções:
+                
+                flex-direction: row | em linha, deitado, da esquerda para a direita
+                flex-direction: row-reverse | em linha, deitado, da direita para a esquerda
+                flex-direction: colunm | em linha, deitado, de cima para baixo
+                flex-direction: colunm-reverse | em linha, deitado, de baixo para cima
+
+                2 eixos:
+
+                main-axis: 
+
+                cross-axis: 
+
+                
+                */     
+        }
+
+        .item {
+            background-color: lightblue;
+            border: 1px solid black;
+            text-align: center;
+
+            flex: auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item">A</div>
+        <div class="item">B</div>
+        <div class="item">C</div>
+        <div class="item">D</div>
+        <div class="item">E</div>
+        <div class="item">F</div>
+        <div class="item">G</div>
+    </div>
+
+
+
+</body>
+</html>
